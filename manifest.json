@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "WQoE-Extension",
+  "version": "1.0",
+
+  "description": "An environment-independent web Quality-of-Experience measuring tool",
+
+  "icons": {
+    "48": "icons/iconmonstr-magnifier-4-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["jquery-3.3.1.min.js", "background.js"]
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "content_security_policy": "script-src 'self' https://code.jquery.com; object-src 'self'",
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "system.cpu",
+    "system.memory",
+    "geolocation",
+    "http://*/",
+    "https://*/"
+  ]
+}
