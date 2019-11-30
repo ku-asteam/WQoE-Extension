@@ -2,7 +2,7 @@
 An environment-independent web Quality-of-Experience measuring tool
 
 ## Introduction
-WQOE-Extension is a Chrome extension program which gathers real users' web experience. This program gathers the data related to web pages, users' devices, and events triggered by users
+WQpE-Extension is a Chrome extension program which gathers real users' web experience. This program gathers the data related to web pages, users' devices, and events triggered by users
 
 ## Requirements and Dependencies
 * Chromium-based browsers
