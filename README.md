@@ -3,8 +3,8 @@ An environment-independent web Quality-of-Experience measuring tool
 
 ## Introduction
 WQoE-Extension is a Chrome extension program which gathers real users' web experience. 
-WQpE-Extension gathers web page load events, scroll events, touch events, and etc.
-WQpE-Extension is useful for someone who wants to contribute to the research which collects users' data and analyze the data to enhance the web browsing experience. The data are stored our lab server and used only for our study.
+WQoE-Extension gathers web page load events, scroll events, touch events, and etc.
+WQoE-Extension is useful for someone who wants to contribute to the research which collects users' data and analyze the data to enhance the web browsing experience. The data are stored our lab server and used only for our study.
 
 We only collect the data mentioned below. We never collect any other private data like passwords. And all collected data is used just for the study. We collect data as follows:
 * URL
